@@ -61,17 +61,13 @@ A recurring theme throughout is **separating participation from intensity**: sev
 - seaborn / matplotlib for visualization
 - xgboost + shap for exploratory (non-final) interaction discovery between behavioural features
 
-## Running the notebooks
-
-```bash
-pip install -r requirements.txt   # pandas, numpy, scipy, seaborn, matplotlib, xgboost, shap
 ```
 
 Both notebooks import shared helper functions:
 
 ```python
-from eda_utils import *   # data transformations (redundancy checks, monthly-feature collapsing, etc.)
-from eda_plot import *    # plotting functions
+from utils import *   # data transformations (redundancy checks, monthly-feature collapsing, etc.)
+from plot import *    # plotting functions
 ```
 
 ## Next steps (Part 2)
